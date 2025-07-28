@@ -1,0 +1,70 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.swiper-slide:first-child {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.informacao-basica {
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: large;
+}
+
+.contato {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+#imagem-linkedin {
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+#imagem-github {
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+.swiper-slide:not(:first-child) {
+    padding: 80px 5% 60px 5%; 
+    height: auto;
+    box-sizing: border-box;
+}
+
+#slide-2 {
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+p {
+    text-align: justify;
+    color: black;
+    line-height: 2;
+}
+
+.swiper .swiper-button-prev {
+    color: black;
+}
+
+.swiper .swiper-button-next {
+    color: black;
+}
+
+.swiper .swiper-pagination {
+    --swiper-pagination-color: black;
+}
